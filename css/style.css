@@ -1,0 +1,20 @@
+.main{
+    height: 40px;
+    width: 100%;
+    border: 3px solid red;
+    background-color:white;
+}
+
+.progress_bar{
+    width: 0%;
+    height: 40px;
+    background-color: red;
+    animation: abc 4s ease infinite;
+}
+
+@keyframes abc {
+    100%{
+        width: 100%;
+        background-color: red;
+    }
+}
